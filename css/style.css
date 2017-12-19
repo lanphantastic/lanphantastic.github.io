@@ -886,11 +886,11 @@ img {
 
 .site-header {
   position: relative;
-  height: 680px;
-  width: auto;
+  height: 800px;
+  width: 100%;
   /*background-color: red;*/
   background-image: url(../img/self-portrait-bw.jpg);
-  background-size: auto 700px;
+  background-size: auto 810px;
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
