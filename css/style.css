@@ -1593,3 +1593,54 @@ a.btn-mod:focus{
 .mn-wrap{
     padding: 8px;
 }
+/* Menu sub multi */
+
+.mn-has-multi{
+    width: auto !important;
+    padding: 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+.mn-sub-multi{
+    width: 190px !important;
+    overflow: hidden;
+    white-space: normal;
+    float: none !important;
+    display: inline-block !important;
+    vertical-align: top;
+}
+.mn-sub-multi > ul{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+.mn-group-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+.mn-group-title:hover{
+    background: none !important;
+}
+
+.mobile-on .mn-sub-multi > ul{
+    left: auto;
+    right: auto;
+    border: none;
+}
+.mobile-on .mn-sub-multi{
+    display: block;
+    width: 100% !important;
+}
+
+
+.mobile-on .mn-sub-multi > ul > li:last-child > a{
+    border: none !important;
+}
+.mobile-on .mn-sub > li:last-child > a{
+    border: none !important;
+}
+.mobile-on .mn-sub-multi:last-child > ul{
+    border-bottom: none !important;
+}
