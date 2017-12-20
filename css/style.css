@@ -2967,3 +2967,31 @@ a.btn-mod:focus{
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
+
+/* Hover state */
+.no-mobile .team-item:hover .team-item-image:after{
+    background: rgba(255,255,255, .93);
+}
+.no-mobile .team-item:hover .team-item-detail{
+    opacity: 1;
+}
+.no-mobile .team-item:hover .team-item-descr{
+    color: #111;
+}
+.no-mobile .team-social-links a:hover{
+    color: rgba(0,0,0, .75);
+}
+
+/* Mobile touch */
+.team-item.js-active .team-item-image:after{
+    background: rgba(255,255,255, .93);
+}
+.team-item.js-active .team-item-detail{
+    opacity: 1;
+}
+.team-item.js-active .team-item-descr{
+    color: #111;
+}
+.team-item.js-active .team-social-links a:hover{
+    color: rgba(0,0,0, .75);
+}
