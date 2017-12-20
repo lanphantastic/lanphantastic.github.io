@@ -3475,3 +3475,133 @@ a.btn-mod:focus{
     margin: -8px 0 0 -8px;
     background: url(../images/loader.gif) no-repeat;
 }
+
+/* Work navigation */
+
+.work-navigation{
+    width: 100%;
+    background: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    z-index: 99;
+}
+.work-navigation .fa{
+    font-size: 12px;
+    vertical-align: middle;
+}
+.work-navigation .fa-times{
+    font-size: 16px;
+    margin-top: -2px;
+}
+.work-navigation a{
+    display: block;
+    float: left;
+    width: 33.33333%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: default;
+}
+.work-navigation a,
+.work-navigation a:visited{
+    color: #555;
+}
+.work-navigation a:hover{
+    color: #111;
+}
+.work-navigation a span{
+    display: inline-block;
+    height: 60px;
+    line-height: 59px;
+    padding: 0 4%;
+    background: #fff;
+    cursor: pointer;
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.work-navigation span:hover{
+    background: #f7f7f7;
+}
+.work-back-link{
+    margin: 20px 0 0;
+    display: block;
+    background: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #151515;
+}
+.work-prev{
+    text-align: left;
+}
+.work-all{
+    text-align: center;
+}
+.work-next{
+    text-align: right;
+}
+.work-container{
+    padding: 50px 0;
+}
+.work-full-title{
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.work-full-media{
+    margin-top: 30px;
+}
+
+.work-full-media img{
+    max-width: 100%;
+    height: auto;
+}
+.work-full-text{
+    text-align: left;
+    font-size: 13px;
+    color: #777;
+}
+.work-full-text h6{
+    margin-top: 5px;
+}
+.work-detail{
+    font-weight: 400;
+}
+.work-detail p:last-child{
+    margin-bottom: 0;
+}
+.work-full-detail{
+    font-size: 11px;
+    color: #777;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.work-full-detail p{
+    padding: 4px 0;
+    margin: 0;
+    border-top: 1px solid rgba(0,0,0, .05);
+}
+.work-full-detail p:last-child{
+    border-bottom: 1px solid rgba(0,0,0, .05);
+}
+.work-full-detail p strong{
+    width: 100px;
+    display: inline-block;
+}
+.work-full-action{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
