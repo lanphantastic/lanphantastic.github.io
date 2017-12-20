@@ -1825,3 +1825,73 @@ a.btn-mod:focus{
     position: relative;
     overflow-x: hidden;
 }
+
+/*
+ * Dark panel style
+ */
+
+.main-nav.dark{
+    background-color: rgba(10,10,10, .95);
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow:  none;
+}
+.main-nav.dark .inner-nav ul > li > a{
+    color: rgba(255,255,255, .7);
+}
+.main-nav.dark .inner-nav ul > li > a:hover,
+.main-nav.dark .inner-nav ul > li > a.active{
+    color: #fff;
+}
+
+.main-nav.dark .mobile-nav{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(255,255,255, .9);
+}
+.main-nav.dark .mobile-nav:hover,
+.main-nav.dark .mobile-nav.active{
+    color: #fff;
+}
+
+.main-nav.mobile-on.dark .inner-nav{
+    border-top: 1px solid rgba(100,100,100, .4);
+}
+
+.main-nav.dark .logo,
+.main-nav.dark a.logo:hover{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255,255,255, .9);
+}
+
+.main-nav.dark .mn-sub{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow:  none;
+}
+
+.main-nav.dark .mn-soc-link{
+    border: 1px solid rgba(255,255,255, .2);
+}
+.main-nav.dark .mn-soc-link:hover{
+    border: 1px solid rgba(255,255,255, .3);
+}
+
+/*
+ * Transparent panel style
+ */
+
+.main-nav.transparent{
+    background: transparent !important;
+}
+.main-nav.js-transparent{
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
