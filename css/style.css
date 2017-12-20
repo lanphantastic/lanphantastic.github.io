@@ -3439,3 +3439,39 @@ a.btn-mod:focus{
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+
+/*
+ * Works full view
+ */
+
+.work-full{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 10000;
+}
+.work-full-load{
+    padding-top: 60px;
+}
+.work-loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 10001;
+}
+.work-loader:after{
+    display: block;
+    content: " ";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -8px 0 0 -8px;
+    background: url(../images/loader.gif) no-repeat;
+}
