@@ -1946,3 +1946,35 @@ a.btn-mod:focus{
     margin-left: auto;
     margin-right: auto;
 }
+/*
+ * Menu social links
+ */
+
+.mn-soc-link{
+    width: 34px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 12px;
+
+    display: inline-block;
+    border: 1px solid rgba(0,0,0, .1);
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.mn-soc-link:hover{
+    border: 1px solid rgba(0,0,0, .25);
+}
+.main-nav .tooltip{
+    font-size: 12x;
+    text-transform: none;
+    letter-spacing: 0;
+}
