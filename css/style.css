@@ -1895,3 +1895,54 @@ a.btn-mod:focus{
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
+
+
+/*
+ * Centered menu
+ */
+
+.mn-centered{
+    text-align: center;
+}
+.mn-centered .inner-nav{
+    float: none;
+}
+.mn-centered .inner-nav > ul{
+    float: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mn-centered .inner-nav > ul > li:first-child{
+    margin-left: 0;
+}
+.mn-centered .mobile-nav{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * Aligned left menu
+ */
+
+.mn-align-left{
+
+}
+.mn-align-left .inner-nav{
+    float: none;
+    width: 100%;
+}
+.mn-align-left .inner-nav > ul{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mn-align-left .inner-nav > ul > li:first-child{
+    margin-left: 0;
+}
+.mn-align-left .mobile-nav{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
