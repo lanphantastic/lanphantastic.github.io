@@ -196,6 +196,10 @@
   padding-bottom: 20px
 }
 
+.col-sm-6.col-lg-4.pt-20.pb-20.pb-xs-0 {
+    margin-left: 13.67%;
+}
+
 .pb-30 {
   padding-bottom: 30px
 }
