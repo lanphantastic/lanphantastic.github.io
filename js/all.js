@@ -955,7 +955,7 @@ function initPageSliders(){
 
 // Projects filtering
 var fselector = 0;
-var work_grid = $("#work-grid, #isotope");
+var work_grid = $("#photography-grid, #isotope");
 
 function initWorkFilter(){
     (function($){

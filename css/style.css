@@ -3263,7 +3263,7 @@ a.btn-mod:focus{
     margin: 0;
     padding: 0;
 }
-.work-item{
+.photography-item{
     width: 25%;
     float: left;
     margin: 0;
@@ -3272,27 +3272,27 @@ a.btn-mod:focus{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.work-grid-2 .work-item{
+.photography-grid-2 .photography-item{
     width: 50%;
 }
-.work-grid-3 .work-item{
+.photography-grid-3 .photography-item{
     width: 33.333%;
 }
-.container .work-grid-3 .work-item{
+.container .photography-grid-3 .photography-item{
     width: 33.2%;
 }
-.work-grid-5 .work-item{
+.photography-grid-5 .photography-item{
     width: 20%;
 }
 
-.works-grid.work-grid-gut{
+.works-grid.photography-grid-gut{
     margin: 0 0 0 -10px;
 }
-.works-grid.work-grid-gut .work-item{
+.works-grid.photography-grid-gut .photography-item{
     padding: 0 0 10px 10px;
 }
 
-.work-item > a{
+.photography-item > a{
     display: block;
     padding: 0 0 84px 0;
     position: relative;
@@ -3300,8 +3300,8 @@ a.btn-mod:focus{
     box-sizing: border-box;
     text-decoration: none;
 }
-.work-item a,
-.work-item a:hover{
+.photography-item a,
+.photography-item a:hover{
     color: #111;
     border: none;
 }
@@ -3345,15 +3345,15 @@ a.btn-mod:focus{
     color: #aaa;
     line-height: 1.2;
 }
-.works-grid.hide-titles .work-item > a{
+.works-grid.hide-titles .photography-item > a{
     overflow: hidden;
     padding: 0;
 }
-.works-grid.hide-titles .work-item .work-intro{
+.works-grid.hide-titles .photography-item .work-intro{
     opacity: 0;
     bottom: -94px;
 }
-.works-grid.hide-titles .work-item:hover .work-intro{
+.works-grid.hide-titles .photography-item:hover .work-intro{
     opacity: 1;
 }
 
@@ -3368,7 +3368,7 @@ a.btn-mod:focus{
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
-.work-item:hover .work-intro{
+.photography-item:hover .work-intro{
     /*bottom: auto;*/
     /*top: 50%;*/
     color: #fff;
@@ -3379,13 +3379,13 @@ a.btn-mod:focus{
 
     z-index: 3;
 }
-.work-item:hover .work-title{
+.photography-item:hover .work-title{
     color: #ccc;
 }
-.work-item:hover .work-descr{
+.photography-item:hover .work-descr{
     color: #999;
 }
-.work-item .work-img:after{
+.photography-item .work-img:after{
     content: " ";
     display: block;
     width: 100%;
@@ -3402,29 +3402,29 @@ a.btn-mod:focus{
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 
 }
-.work-item:hover .work-img:after{
+.photography-item:hover .work-img:after{
     background: rgba(20,20,20, .85);
 }
 
-.works-grid.hover-color .work-item:hover .work-intro,
-.works-grid.hover-color .work-item:hover .work-title,
-.works-grid.hover-color .work-item:hover .work-descr{
+.works-grid.hover-color .photography-item:hover .work-intro,
+.works-grid.hover-color .photography-item:hover .work-title,
+.works-grid.hover-color .photography-item:hover .work-descr{
     color: #fff;
 }
-.works-grid.hover-color .work-item:hover .work-img:after{
+.works-grid.hover-color .photography-item:hover .work-img:after{
     background: #e41919;
     opacity: .73;
 }
-.works-grid.hover-white .work-item:hover .work-intro,
-.works-grid.hover-white .work-item:hover .work-title,
-.works-grid.hover-white .work-item:hover .work-descr{
+.works-grid.hover-white .photography-item:hover .work-intro,
+.works-grid.hover-white .photography-item:hover .work-title,
+.works-grid.hover-white .photography-item:hover .work-descr{
     color: #000;
 }
-.works-grid.hover-white .work-item:hover .work-img:after{
+.works-grid.hover-white .photography-item:hover .work-img:after{
     background: rgba(250,250,250, .9);
 }
 
-.work-item .work-img > img{
+.photography-item .work-img > img{
     -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3432,7 +3432,7 @@ a.btn-mod:focus{
     transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
-.work-item:hover .work-img > img{
+.photography-item:hover .work-img > img{
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);

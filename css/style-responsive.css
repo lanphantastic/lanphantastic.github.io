@@ -69,7 +69,7 @@ Primary use:    MultiPurpose Template
         margin-top: 10px;
     }
 
-    .work-grid-5 .work-item{
+    .photography-grid-5 .photography-item{
         width: 25%;
     }
 
@@ -214,10 +214,10 @@ Primary use:    MultiPurpose Template
         font-size: 14px;
     }
 
-    .work-item,
-    .work-grid-3 .work-item,
-    .container .work-grid-3 .work-item,
-    .work-grid-5 .work-item{
+    .photography-item,
+    .photography-grid-3 .photography-item,
+    .container .photography-grid-3 .photography-item,
+    .photography-grid-5 .photography-item{
         width: 50%;
     }
 
@@ -733,11 +733,11 @@ Primary use:    MultiPurpose Template
         margin-right: 0;
     }
 
-    .work-item,
-    .work-grid-2 .work-item,
-    .work-grid-3 .work-item,
-    .container .work-grid-3 .work-item,
-    .work-grid-5 .work-item {
+    .photography-item,
+    .photography-grid-2 .photography-item,
+    .photography-grid-3 .photography-item,
+    .container .photography-grid-3 .photography-item,
+    .photography-grid-5 .photography-item {
         width: 100%;
     }
 
