@@ -469,8 +469,6 @@ hr.black{
     line-height: 1.86
 }
 
-
-
 /* ==============================
    Home sections
    ============================== */
@@ -605,32 +603,6 @@ hr.black{
 
    z-index: 2;
 }
-/*
- * HTML5 BG VIdeo
- */
-
-.bg-video-wrapper{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 0;
-}
-.bg-video-overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-}
-.bg-video-wrapper video{
-    max-width: inherit;
-    height: inherit;
-    z-index: 0;
-}
-
-
 
 /*
  * Headings styles
