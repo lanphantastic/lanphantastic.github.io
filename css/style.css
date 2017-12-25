@@ -1988,10 +1988,6 @@ hr.black{
     color: #fff;
 }
 
-#me-as-a-person{
-  margin-top:10%;
-}
-
 .bg-dark{
     background-color: #111;
 }
@@ -2719,6 +2715,10 @@ hr.black{
 
 #skills-set{
   padding:75px 0;
+}
+
+#photography{
+  margin-bottom: 15%;
 }
 
 /* ==============================
