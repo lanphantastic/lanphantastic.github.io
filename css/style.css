@@ -3095,20 +3095,6 @@ a.link-to-top{
    Intro page
    ============================== */
 
-.fullwidth-slideshow-pager-wrap .owl-item{
-    opacity: .7;
-    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-}
-.fullwidth-slideshow-pager-wrap .owl-item:hover{
-    opacity: 1;
-}
-.fullwidth-slideshow-pager-wrap .owl-item.synced{
-    opacity: 1;
-}
 .fsp-item{
     margin: 0 2px;
     cursor: pointer;
