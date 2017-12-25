@@ -2978,23 +2978,6 @@ hr.black{
     font-weight: 300;
 }
 
-/*
- * Contact form
- */
-
-.cf-left-col{
-    width: 49.4%;
-    float: left;
-    margin-right: 1.2%;
-}
-.cf-right-col{
-    width: 49.4%;
-    float: left;
-}
-.contact-form .form-group{
-    margin-bottom: 10px;
-}
-
 /* ==============================
    Footer
    ============================== */
