@@ -608,32 +608,6 @@ hr.black{
  * Headings styles
  */
 
-
-.hs-wrap{
-    max-width: 570px;
-    margin: 0 auto;
-    padding: 47px 30px 53px;
-    position: relative;
-    text-align: center;
-
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-
-    border: 1px solid rgba(255,255,255, .5);
-}
-
-.hs-wrap-1{
-    max-width: 350px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 .hs-line-1{
     margin-top: 0;
     position: relative;
