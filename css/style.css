@@ -769,17 +769,6 @@ hr.black{
     letter-spacing: 0.2em;
     line-height: 1.3;
 }
-.no-transp{
-    opacity: 1 !important;
-}
-
-.fullwidth-galley-content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 25;
-}
 
 /* ==============================
    Top bar
