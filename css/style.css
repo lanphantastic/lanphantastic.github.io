@@ -436,17 +436,6 @@ hr.black{
     color: #111;
 }
 
-.dropcap{
-    float: left;
-    font-size: 3em;
-    line-height: 1;
-    padding: 2px 8px 2px 0;
-}
-
-.sub-heading.black{
-    color: rgba(0,0,0, .75);
-}
-
 /* ==============================
    Alt features
    ============================== */
