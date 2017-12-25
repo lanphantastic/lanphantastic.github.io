@@ -2875,12 +2875,11 @@ hr.black{
   margin-bottom:0;
 }
 
-
 /*
  * Logotypes
  */
 
-.logo-item{
+/*.logo-item{
     height: 80px;
     text-align: center;
     opacity: .75;
@@ -2904,49 +2903,14 @@ hr.black{
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
+}*/
 
 
 /* ==============================
    Post previews
    ============================== */
 
-.post-grid{
 
-}
-.post-prev-img{
-    margin-bottom: 23px;
-    position: relative;
-}
-.post-prev-img a{
-    -webkit-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -moz-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -o-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    transition: all 0.2s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
-.post-prev-img a:hover{
-    opacity: .85;
-}
-.post-prev-img img{
-    width: 100%;
-}
-.post-prev-title{
-    margin-bottom: 6px;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-}
-.post-prev-title a{
-    color: #777;
-    text-decoration: none;
-
-    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
 .post-prev-title a:hover{
     color: #111;
 }
