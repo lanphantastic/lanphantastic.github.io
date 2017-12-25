@@ -1638,53 +1638,6 @@ hr.black{
     transform: rotate(-45deg);
 }
 
-.fm-has-sub{
-
-}
-.fm-has-sub .fa{
-    font-size: 14px;
-}
-.js-opened > .fm-has-sub > .fa{
-    color: #fff;
-}
-.fm-sub{
-    display: none;
-    opacity: 0;
-    position: relative;
-}
-.fm-sub > li > a{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.fm-menu-links li.js-opened .fm-sub{
-    opacity: 1;
-}
-.fm-search{
-    width: 320px;
-}
-.fm-search input.search-field{
-    background: transparent;
-    color: #555;
-    text-align: center;
-    border: none;
-    border-bottom: 1px solid rgba(255,255,255, .2);
-}
-.fm-search input.search-field:hover{
-    border: none;
-    border-bottom: 1px solid rgba(255,255,255, .4);
-}
-.fm-search input.search-field:focus{
-    color: #999;
-    border-color: rgba(255,255,255, .7);
-}
-.fm-search .search-button:hover{
-    color: #fff;
-}
 /* Social links */
 
 .fm-social-links{
