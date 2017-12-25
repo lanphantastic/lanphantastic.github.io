@@ -1638,31 +1638,6 @@ hr.black{
     transform: rotate(-45deg);
 }
 
-.no-touch .fm-menu-links a:hover,
-.fm-menu-links a:active,
-.fm-menu-links li.js-opened > a{
-    color: #d5d5d5;
-    text-decoration: none;
-}
-.fm-menu-links li{
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.fm-menu-links li > a:active,
-.fm-menu-links li.active > a,
-.fm-menu-links li a.active{
-    color: #f5f5f5;
-}
-.fm-menu-links li.js-opened:before{
-    display: none;
-}
-.no-touch .fm-menu-links li.js-opened > a:hover,
-.fm-menu-links li.js-opened > a:active{
-    color: #fff;
-}
-
 .fm-has-sub{
 
 }
