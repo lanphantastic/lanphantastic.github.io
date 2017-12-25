@@ -2611,45 +2611,6 @@ hr.black{
 }
 
 
-/* ==============================
-   Benefits
-   ============================== */
-
-.benefits-grid{
-    margin: 0 0 -40px -20px;
-    text-align: center;
-    vertical-align: top;
-}
-.benefit-item{
-    display: inline-block;
-    width: 264px;
-    margin: 0 0 40px 20px;
-    padding: 15px;
-    position: relative;
-    overflow: hidden;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    vertical-align: top;
-    cursor: default;
-}
-.benefit-number{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: -50px;
-    font-size: 120px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1;
-    color: rgba(0,0,0, .025);
-
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-}
 .benefit-icon{
     position: relative;
     margin-bottom: 6px;
