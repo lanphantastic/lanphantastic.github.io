@@ -2860,10 +2860,7 @@ hr.black{
    Banner section
    ============================== */
 
-.banner-section{
-    overflow: visible;
-    border-bottom: 1px solid transparent;
-}
+
 .banner-heading{
     margin-top: 0;
     margin-bottom: 20px;
@@ -2872,21 +2869,6 @@ hr.black{
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: rgba(255,255,255, 0.9);
-}
-
-.banner-decription{
-    margin-bottom: 35px;
-    font-size: 15px;
-    font-weight: 300;
-    color: rgba(255,255,255, .7);
-}
-
-.banner-image{
-    margin: -40px 0 0 0;
-    text-align: right;
-}
-.banner-image img{
-
 }
 
 .banner-heading.font-alt{
