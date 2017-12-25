@@ -2856,35 +2856,7 @@ hr.black{
     transform: scale(1.05);
 }
 
-/* Work navigation */
-
-.work-navigation{
-    width: 100%;
-    background: #fff;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    z-index: 99;
-}
-.work-navigation .fa{
-    font-size: 12px;
-    vertical-align: middle;
-}
-.work-navigation .fa-times{
-    font-size: 16px;
-    margin-top: -2px;
-}
-.work-navigation a{
-    display: block;
-    float: left;
-    width: 33.33333%;
-    overflow: hidden;
-    vertical-align: middle;
-    text-decoration: none;
-    white-space: nowrap;
-    cursor: default;
-}
+/
 .work-navigation a,
 .work-navigation a:visited{
     color: #555;
