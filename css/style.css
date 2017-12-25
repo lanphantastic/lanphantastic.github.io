@@ -2856,55 +2856,6 @@ hr.black{
     transform: scale(1.05);
 }
 
-.work-full-media{
-    margin-top: 30px;
-}
-
-.work-full-media img{
-    max-width: 100%;
-    height: auto;
-}
-.work-full-text{
-    text-align: left;
-    font-size: 13px;
-    color: #777;
-}
-.work-full-text h6{
-    margin-top: 5px;
-}
-.work-detail{
-    font-weight: 400;
-}
-.work-detail p:last-child{
-    margin-bottom: 0;
-}
-.work-full-detail{
-    font-size: 11px;
-    color: #777;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-.work-full-detail p{
-    padding: 4px 0;
-    margin: 0;
-    border-top: 1px solid rgba(0,0,0, .05);
-}
-.work-full-detail p:last-child{
-    border-bottom: 1px solid rgba(0,0,0, .05);
-}
-.work-full-detail p strong{
-    width: 100px;
-    display: inline-block;
-}
-.work-full-action{
-    margin-top: 30px;
-    padding-top: 30px;
-    border-top: 1px solid #eaeaea;
-    text-align: center;
-}
-
-
-
 /* ==============================
    Banner section
    ============================== */
