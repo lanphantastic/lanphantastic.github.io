@@ -119,11 +119,6 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     top: 0;
     left: 0;
 }
-.round{
-    -webkit-border-radius: 2px !important;
-    -moz-border-radius: 2px !important;
-    border-radius: 2px !important;
-}
 
 ::-moz-selection{ color: #fff; background:#000; }
 ::-webkit-selection{ color: #fff;    background:#000; }
