@@ -3094,19 +3094,7 @@ a.link-to-top{
 /* ==============================
    Intro page
    ============================== */
-
-.intro-image{
-    width:100%;
-}
-.intro-label{
-    position: absolute;
-    top:7px;
-    right: 10px;
-    font-size: 17px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
+   
 /*
  * Photography 1
  */
