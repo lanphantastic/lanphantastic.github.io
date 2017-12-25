@@ -2713,7 +2713,9 @@ hr.black{
     transform: scale(0.75);
 }
 
-
+.ability-score{
+  float: right;
+}
 
 /* ==============================
    Counters
