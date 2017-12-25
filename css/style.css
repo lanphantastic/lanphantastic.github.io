@@ -1639,20 +1639,6 @@ hr.black{
 }
 
 
-.fm-wrapper-sub.js-active{
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.fm-wrapper-sub-sub{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 .fm-menu-links,
 .fm-menu-links ul{
     margin: 0;
