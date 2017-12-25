@@ -2856,61 +2856,6 @@ hr.black{
     transform: scale(1.05);
 }
 
-/
-.work-navigation a,
-.work-navigation a:visited{
-    color: #555;
-}
-.work-navigation a:hover{
-    color: #111;
-}
-.work-navigation a span{
-    display: inline-block;
-    height: 60px;
-    line-height: 59px;
-    padding: 0 4%;
-    background: #fff;
-    cursor: pointer;
-
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-.work-navigation span:hover{
-    background: #f7f7f7;
-}
-.work-back-link{
-    margin: 20px 0 0;
-    display: block;
-    background: #fff;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #151515;
-}
-.work-prev{
-    text-align: left;
-}
-.work-all{
-    text-align: center;
-}
-.work-next{
-    text-align: right;
-}
-.work-container{
-    padding: 50px 0;
-}
-.work-full-title{
-    margin: 0 0 10px 0;
-    padding: 0;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
 .work-full-media{
     margin-top: 30px;
 }
