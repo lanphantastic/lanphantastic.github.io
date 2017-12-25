@@ -159,24 +159,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 .full-wrapper {
     margin: 0 2%;
 }
-.container-fluid{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 20px;
 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.container-1400{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 html{
     overflow-y: scroll;
     -ms-overflow-style: scrollbar;
