@@ -3094,34 +3094,7 @@ a.link-to-top{
 /* ==============================
    Intro page
    ============================== */
-   
-/*
- * Photography 1
- */
 
-.fullwidth-slideshow{
-    cursor: grab;
-    cursor: -webkit-grab;
-    cursor: -moz-grab;
-}
-.fullwidth-slideshow-pager-wrap{
-    cursor: default;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 60px 0 20px 0;
-
-    z-index: 25;
-
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .65)));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
-    background: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
-    background-color: rgba(0, 0, 0, 0);
-}
 .fullwidth-slideshow-pager-wrap .owl-item{
     opacity: .7;
     -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
