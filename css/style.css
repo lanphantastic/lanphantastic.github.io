@@ -617,6 +617,7 @@ hr.black{
     letter-spacing: 51px;
     color: #fff;
     opacity: .9;
+    bottom: 21%;
 }
 .hs-line-2{
     margin-top: 0;
@@ -664,6 +665,7 @@ hr.black{
     font-weight: 300;
     line-height: 1.2;
     opacity: .35;
+    top: 25%;
 }
 .hs-line-6.no-transp{
     opacity: 1;
