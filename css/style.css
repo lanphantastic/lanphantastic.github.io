@@ -1854,8 +1854,8 @@ hr.black{
 .bg-red{ background-color: #e13939 !important; }
 
 .section-title {
-    margin-bottom: 15px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -1914,6 +1914,23 @@ hr.black{
     text-align: center;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
+}
+
+.about > h4{
+  font-weight: 600;
+}
+
+.about > p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.colinmochrie{
+  text-decoration: none;
+}
+
+.videogame{
+  text-decoration:none;
 }
 .image-fullwidth img{
     width: 100%;
